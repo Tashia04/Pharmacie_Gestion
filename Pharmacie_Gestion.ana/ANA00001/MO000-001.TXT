@@ -1,0 +1,18 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Categorie		NFI		nouveau fichier
+Fournisseur		NFI		nouveau fichier
+Medicament		NFI		nouveau fichier
+Stock		NFI		nouveau fichier
+EntreStock		NFI		nouveau fichier
+SortieStock		NFI		nouveau fichier
+Client		NFI		nouveau fichier
+Utilisateurs		NFI		nouveau fichier
+Contrainte_Medicament_Categorie		NWL	Categorie (IDCategorie) et Medicament (IDCategorie)	Nouvelle liaison entre les fichiers Categorie (IDCategorie) et Medicament (IDCategorie)
+Contrainte_Medicament_Fournisseur		NWL	Fournisseur (IDFournisseur) et Medicament (IDFournisseur)	Nouvelle liaison entre les fichiers Fournisseur (IDFournisseur) et Medicament (IDFournisseur)
+Contrainte_Medicament_Stock		NWL	Stock (IDStock) et Medicament (IDStock)	Nouvelle liaison entre les fichiers Stock (IDStock) et Medicament (IDStock)
+Contrainte_SortieStock_Medicament		NWL	SortieStock (IDSortieStock) et Medicament (IDSortieStock)	Nouvelle liaison entre les fichiers SortieStock (IDSortieStock) et Medicament (IDSortieStock)
+Contrainte_Medicament_EntreStock		NWL	EntreStock (IDEntreStock) et Medicament (IDEntreStock)	Nouvelle liaison entre les fichiers EntreStock (IDEntreStock) et Medicament (IDEntreStock)
+Contrainte_Fournisseur_EntreStock		NWL	Fournisseur (IDFournisseur) et EntreStock (IDFournisseur)	Nouvelle liaison entre les fichiers Fournisseur (IDFournisseur) et EntreStock (IDFournisseur)
+Contrainte_SortieStock_Client		NWL	Client (IDClient) et SortieStock (IDClient)	Nouvelle liaison entre les fichiers Client (IDClient) et SortieStock (IDClient)
+Contrainte_EntreStock_Utilisateurs		NWL	EntreStock (IDEntreStock) et Utilisateurs (IDEntreStock)	Nouvelle liaison entre les fichiers EntreStock (IDEntreStock) et Utilisateurs (IDEntreStock)
+Contrainte_SortieStock_Utilisateurs		NWL	SortieStock (IDSortieStock) et Utilisateurs (IDSortieStock)	Nouvelle liaison entre les fichiers SortieStock (IDSortieStock) et Utilisateurs (IDSortieStock)
