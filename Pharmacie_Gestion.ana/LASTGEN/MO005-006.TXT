@@ -1,0 +1,7 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+Medicament		TAR	127	nouvelle taille enregistrement : 127
+Medicament	IDStock	RUB-		la clé IDStock est supprimée
+Stock		TAR	42	nouvelle taille enregistrement : 42
+Stock	IDMedicament	RUB+		IDMedicament est une nouvelle clé
+Contrainte_Medicament_Stock		NWL	Medicament (IDMedicament) et Stock (IDMedicament)	Nouvelle liaison entre les fichiers Medicament (IDMedicament) et Stock (IDMedicament)
+Contrainte_Medicament_Stock		DEL	Stock (IDStock) et Medicament (IDStock)	Liaison supprimée entre les fichiers Stock (IDStock) et Medicament (IDStock)

@@ -1,0 +1,3 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+Vente		TAR	48	nouvelle taille enregistrement : 48
+Vente	NumeroVente	RUB+		NumeroVente est une nouvelle rubrique
