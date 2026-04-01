@@ -1,7 +1,3 @@
-//MO006-007.TXT ANA00006 TO ANA00007
-Client		TAR	183	nouvelle taille enregistrement : 183
-Client	IDVente	RUB-		la clé IDVente est supprimée
-Vente		TAR	56	nouvelle taille enregistrement : 56
-Vente	IDClient	RUB+		IDClient est une nouvelle clé
-Contrainte_Vente_Client		NWL	Client (IDClient) et Vente (IDClient)	Nouvelle liaison entre les fichiers Client (IDClient) et Vente (IDClient)
-Contrainte_Client_Vente		DEL	Vente (IDVente) et Client (IDVente)	Liaison supprimée entre les fichiers Vente (IDVente) et Client (IDVente)
+//MO007-008.TXT ANA00007 TO ANA00008
+Medicament		TAR	137	nouvelle taille enregistrement : 137
+Medicament	Prixunitaire	RUB+		Prixunitaire est une nouvelle rubrique
